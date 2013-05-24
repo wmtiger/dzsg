@@ -1,4 +1,4 @@
-package
+package com.dzsg.net
 {
 	import flash.events.IOErrorEvent;
 	import flash.events.NetStatusEvent;
@@ -117,7 +117,7 @@ package
 		
 		private function statusHandle(obj:Object):void
 		{
-			trace("statusHandle->", obj);
+			trace("responder statusHandle");
 			for (var i:String in obj) 
 			{
 				trace(i, obj[i]);
